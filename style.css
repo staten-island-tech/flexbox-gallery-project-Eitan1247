@@ -1,23 +1,43 @@
 html, body, *{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-size: 62.5%;
 
+margin: 30 ;
+box-sizing: border-box;
+font-size: 100%;
+
+}
+
+#heading{
+    font-size: 5rem;
+    text-align: center;
 }
 
 .parent{
-    font-size: 20px;
+    font-size: 30
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 300px;
+    
 }
 
-.px-size{
-    font-size: 50px;
+.child{
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 13rem;
+    height: 20rem;
+
 }
 
-.rem-size{
-    font-size: 2rem;
+.child1{
+border-color: rgb(0, 255, 204);
+
 }
 
-.rem-size{
-    font-size: 2em;
+.child2{
+    border-color: rgb(255, 0, 0);
+}
+
+.child3{
+    border-color: rgb(38, 255, 0);
 }
