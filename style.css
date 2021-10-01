@@ -1,37 +1,45 @@
 html, body, *{
 
-margin: 30 ;
+/* margin: 30 ; */
 box-sizing: border-box;
-font-size: 100%;
+font-size: 62.5%;
+}
 
+body{
+    position:absolute;
+    background-image: url(Wood-wow.jpg);
+    background-repeat:unset;
+    background-size: 100rem;
+    transform: rotate(90);
 }
 
 #heading{
+    margin: 30;
     font-size: 5rem;
     text-align: center;
 }
 
 .parent{
-    font-size: 30
+    font-size: 60;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 300px;
-    
+    height: 300px;  
 }
 
 .child{
     box-sizing: border-box;
     border: 1px solid red;
-    width: 13rem;
-    height: 20rem;
+    margin: 30;
+    width: 20rem;
+    height: 30rem;
+    background-color: red;
 
 }
 
 .child1{
 border-color: rgb(0, 255, 204);
-
 }
 
 .child2{
