@@ -15,8 +15,10 @@ body{
 
 #heading{
     margin: 30;
-    font-size: 5rem;
+    color: white;
+    font-size: 10rem;
     text-align: center;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 
 .parent{
@@ -29,14 +31,40 @@ body{
 }
 
 .child{
+    padding: 10;
     box-sizing: border-box;
-    border: 1px solid red;
     margin: 30;
     width: 20rem;
     height: 30rem;
-    background-color: red;
+    border-radius: 50px;
+    border-radius: 50px;
+    border-radius: 40px;
+    border-radius: 29px;
+    border-radius: 29px;
+    background: #dedede;
+    box-shadow:  7px 7px 8px #bdbdbd,
+             -7px -7px 8px #ffffff;
+      perspective: 1000;
+
 
 }
+
+.front-face{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+.face-back {
+    display: block;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+.
+
+
 
 .child1{
 border-color: rgb(0, 255, 204);
