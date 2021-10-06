@@ -1,16 +1,13 @@
 html, body, *{
-
+  
 /* margin: 30 ; */
 box-sizing: border-box;
 font-size: 62.5%;
+position: ;
 }
 
 body{
-    position:absolute;
-    background-image: url(Wood-wow.jpg);
-    background-repeat:unset;
-    background-size: 100rem;
-    transform: rotate(90);
+    background-color: rgb(212, 212, 212);
 }
 
 #heading{
@@ -25,9 +22,12 @@ body{
     font-size: 60;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    margin: 80px auto;
+    justify-content: space-around;
     flex-wrap: wrap;
-    height: 300px;  
+    height: 33%; 
+    width: 100%; 
+
     
 }
 
@@ -35,8 +35,8 @@ body{
     padding: 10;
     box-sizing: border-box;
     margin: 30;
-    width: 20rem;
-    height: 30rem;
+    width: 25%;
+    height: 100%;
     border-radius: 50px;
     border-radius: 50px;
     border-radius: 40px;
@@ -46,12 +46,23 @@ body{
     box-shadow:  7px 7px 8px #bdbdbd,
              -7px -7px 8px #ffffff;
       perspective: 1000;
-    position: absolute;
-  
 
 
 }
 
+.face-img{
+height: 100%;
+margin: 0;
+width: 100%;
+border-radius: 50px;
+border-radius: 50px;
+border-radius: 40px;
+border-radius: 29px;
+border-radius: 29px;
+box-shadow:  7px 7px 8px #bdbdbd,
+         -7px -7px 8px #ffffff;
+
+}
 
 #container {
     position: relative;
@@ -90,7 +101,6 @@ body{
 position: absolute;
 width: 100%;
 height: 100%;
-background-color: red;
 backface-visibility: hidden;
 
 }
@@ -104,15 +114,3 @@ backface-visibility: hidden;
    
   }
 
-
-.child1{
-border-color: rgb(0, 255, 204);
-}
-
-.child2{
-    border-color: rgb(255, 0, 0);
-}
-
-.child3{
-    border-color: rgb(38, 255, 0);
-}
