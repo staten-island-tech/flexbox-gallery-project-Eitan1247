@@ -9,7 +9,11 @@ position: ;
 }
 
 body{
-    background-color: rgb(212, 212, 212);
+    background-image: url(Audiotorium.jpg);
+background-repeat: no-repeat;
+    background-size: cover;
+    GRADIENT
+    background-attachment: fixed;
     font-family: 'Source Serif Pro', serif;
 }
 
