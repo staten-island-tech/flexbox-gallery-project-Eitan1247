@@ -11,10 +11,12 @@ position: ;
 body{
     background-image: url(Audiotorium.jpg);
 background-repeat: no-repeat;
-    background-size: cover;
-    GRADIENT
+    background-size: 285rem ;
+    background-position-x: center;
+    background: linear-gradient(145deg, #000000, #f0f0f0)
     background-attachment: fixed;
     font-family: 'Source Serif Pro', serif;
+    background-image: 
 }
 
 #heading{
@@ -22,7 +24,7 @@ background-repeat: no-repeat;
     color: white;
     font-size: 10rem;
     text-align: center;
-    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
 }
 
 .parent{
