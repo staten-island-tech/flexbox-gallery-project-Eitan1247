@@ -134,3 +134,23 @@ backface-visibility: hidden;
 }
 
 
+@media screen and (max-width: 1170px) {
+  #heading{
+    font-size: 15rem
+  }
+  body{
+    background-size: cover
+  }
+  .parent{
+    height: 49rem;
+    width: 120rem;
+  justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+
+  
