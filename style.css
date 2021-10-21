@@ -128,20 +128,19 @@ body {
   }
 }
 @media screen and (max-width: 500px) {
-#heading {
-  font-size: 7.65rem;
-  -webkit-text-stroke: 1.87px rgb(0, 0, 0);
-}
+  #heading {
+    font-size: 7.65rem;
+    -webkit-text-stroke: 1.87px rgb(0, 0, 0);
+  }
 }
 
 @media screen and (max-width: 400px) {
   #heading {
     font-size: 6.48rem;
     -webkit-text-stroke: 1.421px rgb(0, 0, 0);
-}
+  }
   .child {
     width: 18rem;
     height: 30rem;
+  }
 }
-}
-  
