@@ -22,10 +22,11 @@ body {
 }
 
 #heading {
-  margin: 30;
+  margin: auto;
   color: white;
   font-size: 10rem;
   text-align: center;
+  width: 90%;
   -webkit-text-stroke: 3px rgb(0, 0, 0);
 }
 
@@ -33,19 +34,19 @@ body {
   font-size: 60;
   box-sizing: border-box;
   display: flex;
-  margin: 80px auto;
+  margin: auto;
   justify-content: space-around;
   flex-wrap: wrap;
   height: 40rem;
-  width: 100rem;
+  width: 80%;
 }
 
 .child {
   padding: 10;
   position: relative;
   margin: 30;
-  width: 25%;
-  height: 100%;
+  width: 20rem;
+  height: 33rem;
   flex-grow: 0;
   flex-shrink: 0;
   border-radius: 50px;
@@ -126,61 +127,21 @@ body {
     transform: scale(1);
   }
 }
-@media screen and (max-width: 1200px) {
-  #heading {
-    font-size: 12rem;
-  }
-  body {
-    background-size: cover;
-  }
-  .parent {
-    height: 38rem;
-    width: 93rem;
-    justify-content: center;
-  }
+@media screen and (max-width: 500px) {
+#heading {
+  font-size: 7.65rem;
+  -webkit-text-stroke: 1.87px rgb(0, 0, 0);
+}
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 400px) {
   #heading {
-    font-size: 8rem;
-    width: 45rem;
-    margin: auto;
-  }
-  body {
-    background-size: cover;
-  }
-  .parent {
-    height: 29rem;
-    width: 10rem;
-    justify-content: center;
-  }
+    font-size: 6.48rem;
+    -webkit-text-stroke: 1.421px rgb(0, 0, 0);
 }
-
-@media screen and (max-width: 768px) {
-  #heading {
-    font-size: 10rem;
-  }
-  body {
-    background-size: cover;
-  }
-  .parent {
-    height: 29rem;
-    width: 75rem;
-    justify-content: center;
-  }
+  .child {
+    width: 18rem;
+    height: 30rem;
 }
-
-@media screen and (max-width: 600px) {
-  #heading {
-    font-size: 8rem;
-    -webkit-text-stroke: 2px rgb(0, 0, 0);
-  }
-  body {
-    background-size: cover;
-  }
-  .parent {
-    height: 24rem;
-    width: 62rem;
-    justify-content: center;
-  }
 }
+  
