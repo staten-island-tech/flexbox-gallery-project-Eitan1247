@@ -6,14 +6,12 @@ body,
   /* margin: 30 ; */
   box-sizing: border-box;
   font-size: 62.5%;
-  position: ;
   animation: yeahyeah 2.5s ease-in 0s 1;
 }
 
 body {
   background-image: url(Audiotorium.jpg);
-  background-repeat: cover;
-  background-size: 285rem;
+  background-size: cover;
   background-position-x: center;
   /* background: linear-gradient(145deg, #00000023, #f0f0f03f); */
   background-attachment: fixed;
@@ -31,7 +29,7 @@ body {
 }
 
 .parent {
-  font-size: 60;
+  font-size: 60px;
   box-sizing: border-box;
   display: flex;
   margin: auto;
@@ -42,9 +40,9 @@ body {
 }
 
 .child {
-  padding: 10;
+  padding: 10px;
   position: relative;
-  margin: 30;
+  margin: 30px;
   width: 20rem;
   height: 33rem;
   flex-grow: 0;
@@ -72,9 +70,7 @@ body {
 }
 
 #container {
-  margin: 10px auto;
-  width: 450px;
-  height: 281px;
+  margin: auto;
   z-index: 1;
 }
 
